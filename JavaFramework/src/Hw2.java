@@ -6,6 +6,7 @@ public class Hw2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter your score");
         int score = scanner.nextInt();
+        scanner.nextLine();
           while (true) {
             if (score >= 90 && score <= 100) {
                 System.out.println("Your grade is A!");
